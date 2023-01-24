@@ -1,0 +1,33 @@
+
+
+form {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+
+input{
+    margin-left: 5px;
+    padding-right: 305px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+input:focus{
+    box-shadow: 1px 1px 10px 1px rgb(65, 150, 260);
+}
+
+.button button{
+    display: flex;
+    width: 30;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 12px;
+    background-color: rgb(65, 150, 260);
+    color: white;
+}
+.button input{ 
+    width: 70%;   
+}

@@ -1,0 +1,43 @@
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.wrapper .text{
+    margin-left: 10px;
+}
+.wrapper .text span{
+    padding-left: 10px;
+}
+.wrapper:nth-child(2n){
+    background-color: rgb(218, 217, 218);
+}
+
+.tap button{
+    margin-right: 15px;
+    padding: 8px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.tap .color{
+    background-color: green;
+}
+.compleat{
+    text-decoration: line-through;
+}
+.wrapper > div , label{ 
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
